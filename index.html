@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="/website/css/uicons-solid-rounded.css"
+rel="stylesheet">
+     <link rel="icon" href="Imagenes/logo.jpeg" type="image/png">
+    <title>Baumeistern</title>
+</head>
+<body>
+
+     <a href="https://wa.me/5547922027" class="whatsapp-float" target="_blank">
+    <i class="fab fa-whatsapp"></i>
+</a>
+    
+
+<header>
+    <div class="logo">
+        <img src="Imagenes/logo.jpeg" alt="Logo Bau">
+        <h1 class="titulo-texturizado">BAUMEISTERN</h1>
+    </div>
+    <nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#sobre-mi">Sobre mi</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+    
+    <div class="imagen-fondo">
+    <img class="fondo" src="Imagenes/kimon-maritz-mQiZnKwGXW0-unsplash.jpg" alt="Fondo">
+    <h2 id="texto-escrito"> </h2>
+</div>
+    
+     <div class="textura" id="servicios"> 
+    <h2 class="titulo-texturizado">Servicios</h2>
+</div>
+    
+    <div class="contenedor-tarjetas">
+    <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/diseno-grafico.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Diseño Arquitectonico</h3>
+        <p class="descripcion">Sumérgete en la excelencia del diseño arquitectónico, donde cada espacio cobra vida con creatividad y funcionalidad. Transformamos tus ideas en un proyecto visualmente impresionante, creando hogares y espacios que reflejen tu estilo único y satisfagan todas tus necesidades.</p>
+    </div>
+
+     <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/modelo-3d.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Modelados 3D</h3>
+        <p class="descripcion">Experimenta la magia de la visualización tridimensional con nuestros servicios de modelado 3D. Sumérgete en una representación realista de tu proyecto antes de que cobre vida, permitiéndote explorar cada rincón y detalle. Con nuestros modelados 3D, la anticipación se convierte en realidad visual..</p>
+    </div>
+
+     <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/edificio.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Calculo Estructural</h3>
+        <p class="descripcion">Asegura la solidez y seguridad de tu proyecto con nuestros servicios de cálculo estructural. Nuestro equipo de ingenieros expertos se encarga de analizar y diseñar cada elemento para resistir el paso del tiempo. Con un enfoque en la estabilidad y durabilidad, garantizamos que tu estructura sea un testimonio duradero de ingeniería de primera clase.</p>
+    </div>
+        
+        <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/arquitectonico.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Planos</h3>
+        <p class="descripcion">Descubre la claridad y la precisión en cada detalle con nuestros servicios de elaboración de planos. Obtén documentos gráficos detallados que sirven como el mapa perfecto para la construcción de tus sueños. Con planos profesionales, garantizamos que cada elemento se alinee con tu visión, desde la distribución de espacios hasta los detalles más finos.</p>
+    </div>
+        
+        <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/arquitectura-moderna.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Remodelaciones</h3>
+        <p class="descripcion">Transforma tu espacio existente en un oasis personalizado de elegancia y funcionalidad. Nuestra oferta de servicios de remodelación te permite dar nueva vida a tu hogar u oficina, desde cambios estéticos hasta innovadoras modificaciones estructurales. Dale a tu espacio una actualización que refleje tu estilo y se adapte perfectamente a tus necesidades cambiantes.</p>
+    </div>
+        
+        <div class="tarjeta" onmouseover="mostrarDescripcion(this)" onmouseout="ocultarDescripcion(this)">
+        <div class="icono "></div>
+        <img src="Imagenes/pared-de-ladrillo.png" alt="Icono de Diseño Arquitectonico">
+        <h3>Ejecución de Obra</h3>
+        <p class="descripcion">Deja que nuestros expertos conviertan tus sueños en realidad con la ejecución impecable de tu proyecto. Desde la coordinación de actividades hasta la gestión de recursos, nos encargamos de cada detalle para garantizar que la construcción sea una experiencia sin complicaciones. Tu visión toma forma con nuestra dedicación a la excelencia en la ejecución de obra.</p>
+    </div>
+</div>
+    
+     <div class="textura" id="sobre-mi"> 
+    <h2 class="titulo-texturizado">Sobre mi</h2>
+</div>
+    
+    
+    <div class="seccion-imagen">
+    <img  class="sobre-mi-1"src="Imagenes/Perfil.jpeg" alt="Imagen">
+    <div class="cuadro-azul">
+        <h2>Acerca de mi</h2>
+        <p>¡Hola! Soy Luis Cazares un arquitecto apasionado comprometido con la creación de espacios que inspiran y transforman. Con años de experiencia en el mundo del diseño arquitectónico, mi misión es llevar tus ideas y sueños a la realidad, creando ambientes que no solo sean funcionales, sino también estéticamente cautivadores.</p>
+    </div>
+</div>
+    
+     <div class="textura" id="proyectos"> 
+    <h2 class="titulo-texturizado">Proyectos</h2>
+</div>
+    
+     <div class="galeria">
+        
+        <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto2.jpeg" alt="Imagen 2">
+        </div>
+        <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto3.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto4.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto5.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto6.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto7.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto8.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto9.jpeg" alt="Imagen 3">
+        </div>
+         
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto10.jpeg" alt="Imagen 3">
+        </div>
+         <div class="imagen-container">
+            <img class="galeria-imagen" src="Imagenes/Proyecto11.jpeg" alt="Imagen 1">
+        </div>
+         
+        
+        <!-- Flechas de Navegación -->
+        <div class="flecha anterior" onclick="cambiarImagen(-1)">&#8249;</div>
+        <div class="flecha siguiente" onclick="cambiarImagen(1)">&#8250;</div>
+    </div>
+     
+    
+    
+    
+    <div class="testimonios">
+    <h2>Testimonios</h2>
+
+    <div class="testimonial">
+        <img class="testii" src="Imagenes/Perfil3.jpeg" alt="Usuario 1">
+        <p>"¡Increíble servicio! Me realizaron un trabajo excepcional. Estoy muy satisfecho."</p>
+        <cite>- Omar Camacho</cite>
+    </div>
+
+    <div class="testimonial">
+        <img class="testii" src="Imagenes/Cliente.jpeg" alt="Usuario 2">
+        <p>"Excelente servicio por parte del arquitecto, fue una decisión muy acertada de nuestra parte contar con sus servicios."</p>
+        <cite>- Jose Vega</cite>
+    </div>
+
+    <!-- Agrega más testimonios según sea necesario -->
+
+</div>
+    
+    
+    
+     <div class="textura" id="contacto"> 
+    <h2 class="titulo-texturizado">Contacto</h2>
+</div>
+     
+    
+     <div class="footer">
+         <div class="section contacto">
+        <img src="Imagenes/logo.jpeg" alt="Imagen Divisora" style="width: 170%; max-width: 250px; margin-top: 20px;">
+    </div>
+    
+    <div class="section contacto">
+            <h3 style="color: cyan;">¿Necesitas Ayuda?</h3>
+            <p style="color: white"> Email: <a style="color: cyan" href="mailto:lcasares58@gmail.com">lcasares58@gmail.com</a></p>
+            <p style="color: white">Teléfono: 5547922027</p>
+        
+        <div class="section contacto">
+            <div class="redes-sociales">
+                <a href="https://www.facebook.com/profile.php?id=100064147865716&mibextid=JRoKGi" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://wa.me/5547922027"  target="_blank"><i class="fab fa-whatsapp"></i></a>
+                </div>
+            </div>
+        </div>
+         
+         <div class="section contacto">
+        
+    </div>
+    
+    </div>  
+    
+   
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
